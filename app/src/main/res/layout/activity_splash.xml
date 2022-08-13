@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_bg1"
+    tools:context=".ui.SplashActivity">
+
+    <com.lucas.fanexclusive.wiget.TypingView
+        android:id="@+id/v_typing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:lineSpacingExtra="5dp"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/v_envelope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:elevation="5dp"
+        android:scaleX="1.8"
+        android:scaleY="1.5"
+        android:src="@mipmap/ic_envelope" />
+
+    <ImageView
+        android:id="@+id/v_music"
+        android:layout_gravity="end"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_music" />
+
+</FrameLayout>
